@@ -94,7 +94,7 @@ textarea {
             display: flex;
             flex-direction: row;
             overflow-y: auto;
-            border-radius: 1
+            border-radius: 1px;
             
             
             
@@ -194,12 +194,12 @@ textarea {
             }
 
             #taskList p{
-                font-size: 25px;
-                display: flex;
+                font-size: 20px;
                 margin-left:20px;
                 margin-right: 24vh;
-                max-width: 30px;
-                 min-width: 40px;
+                max-width: 20px;
+                min-width: 40px;
+                text-decoration: none;
               
        
          
