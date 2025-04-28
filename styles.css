@@ -1,0 +1,214 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('https://www.transparenttextures.com/patterns/paper.png');
+    background-color: #F4F4F4;
+    height: 105vh; 
+
+}
+
+
+
+#logo h1 {
+ color:#0609b1;
+ font-family: Arial, sans-serif;
+ font-size: 5vh;
+ margin-bottom: 0%;
+ border-radius: 20%;
+ width: 18vh;
+
+}
+
+#logo h2 {
+    background-color: #0609b1;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin-left: 50px;
+    margin-top: 0%;
+    text-align: center;
+    font-size: 30px;
+    width: 20vh;
+    height: 4vh;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+form{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+
+textarea {
+    margin: 5px 0;
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+    align-items: center;
+    font-size:25px;
+  }
+
+  .adicionar{
+        box-shadow: 0px 0px 0px 2px #000000;
+        background:linear-gradient(to bottom, #0609b1 5%, #ffffff 100%);
+        background-color:#0609b1;
+        border-radius:10px;
+        border:1px solid #0609b1;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:19px;
+        padding:7px 10px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #ebf1ff;
+    }
+    .adicionar:hover {
+        background:linear-gradient(to bottom, #ffffff 5%, #0609b1 100%);
+        background-color:#ffffff;
+    }
+    
+    .adicionar:active {
+        position:relative;
+        top:1px;
+    }
+
+    .Painel{
+            width: 100vh;
+           height: 80vh;
+            background: linear-gradient(to bottom, #fcfcfc 5%, #ffffff 100%);
+            margin:10px;
+            border: 5px solid #0609b1 ;
+            text-align: center;
+            display: flex;
+            flex-direction: row;
+            overflow-y: auto;
+            border-radius: 1
+            
+            
+            
+            
+        }
+
+
+
+        .remove-button {
+            background-color: red;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            font-size: 25px;
+            margin-left: 10px;
+            margin: 10px;
+        }
+
+        .concluido{
+            background-color: rgb(0, 255, 0);
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            font-size: 25px;
+            margin-left: 10px;
+            margin: 10px;
+        }
+
+        
+        
+    #taskList p{
+       font-size: 25px;
+       display: flex;
+       margin-left:65px;
+        flex-direction: column;
+        margin-top: 0%;
+        margin-right: 50vh;
+        max-width: 190px;
+        min-width: 190px;
+        font-family: cursive;
+        text-transform:capitalize;
+        text-decoration: overline;
+
+    }
+
+
+    @media screen and (max-width: 600px) {
+        
+        #logo h1 {
+            color:#0609b1;
+            font-family: Arial, sans-serif;
+            font-size: 4vh;
+              
+           }
+
+           #logo h2 {
+            background-color: #0609b1;
+            color: #ffffff;
+            text-align: center;
+            font-size: 25px;
+            height: 3vh;
+        
+        }
+        
+        form{
+            gap: 9px;
+    
+        }
+
+        textarea {
+            margin: 5px 0;
+            width: 260px;
+            height: 24px;
+            border-radius: 10px;
+            font-size: 15px;
+          }
+
+          .adicionar{
+            font-size:15px;
+            padding:5px 6px;
+            
+           
+        }
+
+        .Painel{
+            width: 44vh;
+            height: 75vh;
+            background: linear-gradient(to bottom, #fcfcfc 5%, #ffffff 100%);
+            margin:10px;
+            border: 5px solid #0609b1 ;
+            text-align: center;
+            display: flex;
+            flex-direction: row;
+            overflow-y: auto;
+            border-radius: 1;
+            
+            }
+
+            #taskList p{
+                font-size: 25px;
+                display: flex;
+                margin-left:20px;
+                margin-right: 24vh;
+                max-width: 30px;
+                 min-width: 40px;
+              
+       
+         
+             }
+            
+
+    
+
+        
+    }
+
+    
