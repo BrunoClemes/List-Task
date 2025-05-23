@@ -14,7 +14,7 @@ body {
 #logo h1 {
  color:#0609b1;
  font-family: Arial, sans-serif;
- font-size: 5vh;
+ font-size: 3.125rem;
  margin-bottom: 0%;
  border-radius: 20%;
  width: 18vh;
@@ -29,8 +29,8 @@ body {
     margin-top: 0%;
     text-align: center;
     font-size: 30px;
-    width: 20vh;
-    height: 4vh;
+    width: 12.5rem;
+    height: 2.5rem;
 
 }
 
@@ -85,8 +85,8 @@ textarea {
     }
 
     .Painel{
-            width: 100vh;
-           height: 80vh;
+            width:62.5rem;
+           height: 50rem;
             background: linear-gradient(to bottom, #fcfcfc 5%, #ffffff 100%);
             margin:10px;
             border: 5px solid #0609b1 ;
@@ -131,12 +131,13 @@ textarea {
        margin-left:65px;
         flex-direction: column;
         margin-top: 0%;
-        margin-right: 50vh;
+        margin-right: 31.25rem;
         max-width: 190px;
         min-width: 190px;
         font-family: cursive;
         text-transform:capitalize;
-        text-decoration: overline;
+        gap:10px
+        
 
     }
 
@@ -146,7 +147,7 @@ textarea {
         #logo h1 {
             color:#0609b1;
             font-family: Arial, sans-serif;
-            font-size: 4vh;
+            font-size: 2.5rem;
               
            }
 
@@ -155,7 +156,7 @@ textarea {
             color: #ffffff;
             text-align: center;
             font-size: 25px;
-            height: 3vh;
+            height: 1.875rem;
         
         }
         
@@ -180,8 +181,8 @@ textarea {
         }
 
         .Painel{
-            width: 44vh;
-            height: 75vh;
+            width: 27.5rem;
+            height: 46.875rem;
             background: linear-gradient(to bottom, #fcfcfc 5%, #ffffff 100%);
             margin:10px;
             border: 5px solid #0609b1 ;
@@ -196,7 +197,7 @@ textarea {
             #taskList p{
                 font-size: 20px;
                 margin-left:20px;
-                margin-right: 24vh;
+                margin-right: 15rem;
                 max-width: 20px;
                 min-width: 40px;
                 text-decoration: none;
